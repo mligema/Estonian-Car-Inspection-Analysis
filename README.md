@@ -1,6 +1,6 @@
 # Estonian Car Inspection Analysis
 
-This project provides an analysis of Estonian car inspection data to uncover insights and predict inspection outcomes. Using a dataset containing vehicle inspection results, the project performs exploratory data analysis (EDA), generates visualizations, and builds a machine learning model to estimate the likelihood of a car passing or failing an inspection.
+This project provides an analysis of Estonian car inspection data to uncover insights and predict inspection outcomes. Using a dataset containing vehicle inspection results, the project performs exploratory data analysis (EDA) and generates visualizations of a car passing or failing an inspection.
 
 ---
 
@@ -13,7 +13,7 @@ Estonian-Car-Inspection-Analysis/
 │   └── yv-data-4.csv          # The dataset containing inspection results
 │
 ├── notebooks/
-│   └── inspection_analysis.ipynb # Jupyter Notebook for analysis and modeling
+│   └── inspection_analysis.ipynb # Jupyter Notebook for analysis and visualizing
 │
 ├── README.md                 # Project documentation
 ├── requirements.txt          # Python dependencies
@@ -28,7 +28,7 @@ The dataset contains information about:
 - **Make (MARK)**: Manufacturer of the vehicle.
 - **Model (MUDEL)**: Specific model of the vehicle.
 - **Year_Built (VÄLJALASKEAASTA)**: Year the vehicle was manufactured.
-- **Total_Inspections (ÜV)**: Total inspections performed.
+- **Total_Inspections (ÜV)**: Total inspections performed for this model.
 - **Passed_Inspection (KORRAS ÜV)**: Number of inspections passed.
 - **Failed_Inspection (KORDUS ÜV)**: Number of inspections failed.
 - **Percentage_Failed (KORDUVA ÜV PROTSENT)**: Percentage of failed inspections.
